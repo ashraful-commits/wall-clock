@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    background-color: rgb(225, 197, 38);
+}
+.card-body{
+    background-image: url(image/images.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+    padding: 150px;
+    border: 3px solid rgb(4, 4, 4);
+    box-shadow: 0px 0px 10px rgb(194, 165, 165);
+}
+
+.hou{
+    clip-path: polygon(41% 0, 58% 0, 71% 100%, 26% 100%);
+    border-radius: 50%;
+    width: 10px;
+    height: 50px;
+    background-color: rgb(130, 17, 17);
+    position: absolute;
+    right: 48%;
+    bottom: 49%;
+    z-index: 10000;
+    transform-origin:bottom;
+    opacity: 0.8;
+
+}
+
+.min{
+    clip-path: polygon(41% 0, 58% 0, 71% 100%, 26% 100%);
+    border-radius: 50%;
+    width: 10px;
+    height: 70px;
+    background-color: rgb(0, 102, 0);
+    position: absolute;
+    right: 48%;
+    bottom: 49%;
+    z-index: 30000;
+    transform-origin:bottom;
+    opacity: 0.8;
+
+}
+.sec{
+    clip-path: polygon(41% 0, 58% 0, 71% 100%, 26% 100%);
+    border-radius: 50%;
+    width: 10px;
+    height:95px;
+    background-color: rgb(26, 28, 172); 
+    position: absolute;
+    bottom: 49%;
+    right: 48%;
+    z-index: 50000;
+    transform-origin:bottom;    
+    opacity: 0.8;
+}
+
+
+.circle{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(5, 5, 5);
+    position: absolute;
+    left:46%;
+    top:45%;
+    z-index: 60000;
+    border-radius: 50%;
+}
+.circle_2{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    border-radius: 50%;
+    left: 26%;
+    top: 26%;
+}
+
